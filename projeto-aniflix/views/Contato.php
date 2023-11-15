@@ -17,7 +17,7 @@
     </div>
 <form action="/formulario-contato" method="post">
     <div>
-        <label for="nome">Nome:</label>
+        <label for="nome">Nome: </label>
         <input type="texto" id="nome" name="nome_usuario">
     </div>
     <div>
