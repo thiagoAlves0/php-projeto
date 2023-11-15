@@ -401,7 +401,7 @@
         <div class="card">
           <div class="card-header infotitle">
             <img src="../public/assets/images/fire.svg" alt="Fire Icon">
-            <h4>Series</h4>
+            <h4>Animes em alta</h4>
           </div>
           <div class="card-body">
             <div class="infolist">
@@ -424,7 +424,7 @@
         <div class="card">
           <div class="card-header infotitle">
             <i class='fab icon'>&#xf3ab;</i>
-            <h4>Platforms</h4>
+            <h4>Plataformas</h4>
           </div>
           <div class="card-body">
             <div class="infolist">
@@ -447,14 +447,14 @@
         <div class="card">
           <div class="card-header infotitle">
             <i class="fa icon">&#xf1cd;</i>
-            <h4>Support</h4>
+            <h4>Suporte</h4>
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">Help / FAQ</a>
-              <a href="#">Contact</a>
+              <a href="#">Ajuda / FAQ</a>
+              <a href="Contato.php">Contato</a>
               <a href="#">Customer service</a>
-              <a href="#">Forum</a>
+              <a href="#">Fórum</a>
             </div>
           </div>
         </div>
@@ -463,16 +463,16 @@
       <div class="pricing-column col-sm">
         <div class="card">
           <div class="card-header infotitle ani">
-            <img src="../public/assets/images/eye3.svg" alt="AniWord Icon"> <h4>Ani<span>Flix</span></h4>
+            <img src="../public/assets/images/eye3.svg" alt="Icon"> <h4>Ani<span>Flix</span></h4>
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">About</a>
-              <a href="#">Work with us</a>
-              <a href="#">Publicity</a>
-              <a href="#">Copyright Policy</a>
-              <a href="#">Service Terms</a>
-              <a href="#">Privacy Policy</a>
+              <a href="#">Sobre</a>
+              <a href="#">Trabalhe Conosco</a>
+              <a href="#">Publicidade</a>
+              <a href="#">Política de direitos autorais</a>
+              <a href="#">Termos de serviço</a>
+              <a href="#">política de Privacidade</a>
             </div>
           </div>
         </div>
