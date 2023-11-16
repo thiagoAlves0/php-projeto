@@ -421,27 +421,28 @@
       </div>
 
       <div class="pricing-column col-sm">
-        <div class="card">
-          <div class="card-header infotitle">
+    <div class="card">
+        <div class="card-header infotitle">
             <i class='fab icon'>&#xf3ab;</i>
             <h4>Plataformas</h4>
-          </div>
-          <div class="card-body">
-            <div class="infolist">
-              <a href="#">Android</a>
-              <a href="#">Chromecast</a>
-              <a href="#">Fire TV Stick</a>
-              <a href="#">iOS</a>
-              <a href="#">LG TV</a>
-              <a href="#">Nintendo Switch & Wii U</a>
-              <a href="#">PlayStation 5, 4 & 3</a>
-              <a href="#">Xbox Series X | S, One & 360</a>
-              <a href="#">Samsung TV</a>
-              <a href="#">Windows</a>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="card-body">
+            <div class="infolist">
+                <h5 style="color: white;">Android</h5>
+                <h5 style="color: white;">Chromecast</h5>
+                <h5 style="color: white;">Fire TV Stick</h5>
+                <h5 style="color: white;">iOS</h5>
+                <h5 style="color: white;">LG TV</h5>
+                <h5 style="color: white;">Nintendo Switch & Wii U</h5>
+                <h5 style="color: white;">PlayStation 5, 4 & 3</h5>
+                <h5 style="color: white;">Xbox Series X | S, One & 360</h5>
+                <h5 style="color: white;">Samsung TV</h5>
+                <h5 style="color: white;">Windows</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
 
       <div class="pricing-column col-sm">
         <div class="card">
