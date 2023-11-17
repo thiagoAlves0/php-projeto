@@ -22,96 +22,43 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
-
   <body>
-    <!-- Navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-      <div class="container-fluid navtitle">
-        <a class="navbar-brand mr-auto" href="#">Ani<span>Flix</span></a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <div class="container-fluid">
-            <div class="row align-items-center justify-content-center">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle navlink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Ranking
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Todos os Animes</a>
-                    <a class="dropdown-item" href="#">Meslhores Animes</a>
-                    <a class="dropdown-item" href="#">Melhores Filmes</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Mais Populares</a>
-                    <a class="dropdown-item" href="#">Favoritos</a>
-                    <a class="dropdown-item" href="#">Melhores OVAs</a>
-                    <a class="dropdown-item" href="#">Melores ONAs</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Lançamentos da Temporada 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Destauqes da Temporada</a>
-                    <a class="dropdown-item" href="#">Lançamentos da Semana</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Categorias 
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Ação</a>
-                    <a class="dropdown-item" href="#">Aventura</a>
-                    <a class="dropdown-item" href="#">Batalha</a>
-                    <a class="dropdown-item" href="#">Comédia</a>
-                    <a class="dropdown-item" href="#">Drama</a>
-                    <a class="dropdown-item" href="#">Fantasia</a>
-                    <a class="dropdown-item" href="#">Mecha</a>
-                    <a class="dropdown-item" href="#">Musica</a>
-                    <a class="dropdown-item" href="#">Mistério</a>
-                    <a class="dropdown-item" href="#">Romance</a>
-                    <a class="dropdown-item" href="#">Slice-of-Life</a>
-                    <a class="dropdown-item" href="#">Sportes</a>
-                    <a class="dropdown-item" href="#">Subrenatural</a>
-                    <a class="dropdown-item" href="#">Thriller</a>
-                  </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    News
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Destaques</a>
-                    <a class="dropdown-item" href="#">Notícias da Temporada</a>
-                    <a class="dropdown-item" href="#">Todas</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <ul class="navbar-nav ml-auto">
-            <li>
-              <button type="button" class="btn btn-outline nav-button">Registro</button>
-            </li>
-            <li>
-              <button type="button" class="btn btn-outline nav-button">Login</button>
+  <!-- Navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <div class="container-fluid navtitle">
+    <a class="navbar-brand mr-4" href="#">Ani<span>Flix</span></a> <!-- Adiciona margem à direita -->
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+          <ul class="navbar-nav mr-auto ml-custom">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navlink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Animes
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="animes.php">Todos os Animes</a>
+              </div>
             </li>
           </ul>
-
+      <ul class="navbar-nav ml-auto">
+        <li>
+      <a href="link-de-registro" class="btn btn-outline nav-button">Registro</a>
+    </li>
+    <li>
+     <a href="link-de-login" class="btn btn-outline nav-button">Login</a>
+    </li>
+         </ul>
+          </ul>
         </div>
       </div>
-
-    </nav>
+    </div>
+  </div>
+</nav>
+</nav>
   </header>
 </section>
 
@@ -364,7 +311,7 @@
           </div>
           <div class="d-flex justify-content-center">
             <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-              <span class="singup-text">Sign Up</span>
+              <span class="singup-text">Inscrição</span>
             </button>
           </div>
         </div>
@@ -428,16 +375,12 @@
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">Android</a>
-              <a href="#">Chromecast</a>
-              <a href="#">Fire TV Stick</a>
-              <a href="#">iOS</a>
-              <a href="#">LG TV</a>
-              <a href="#">Nintendo Switch & Wii U</a>
-              <a href="#">PlayStation 5, 4 & 3</a>
-              <a href="#">Xbox Series X | S, One & 360</a>
-              <a href="#">Samsung TV</a>
-              <a href="#">Windows</a>
+        <img src="../public/assets/images/icon-android.svg" alt="Android" width="50" height="50">
+        <img src="../public/assets/images/icon-maçatv.svg" alt="apple" width="50" height="50">
+        <img src="../public/assets/images/icon-windows.svg" alt="win" width="50" height="50">
+        <img src="../public/assets/images/icon-chromecast.png" alt="cast" width="50" height="50">
+        <img src="../public/assets/images/icon-fire.png" alt="firetv" width="50" height="50">
+
             </div>
           </div>
         </div>
@@ -451,10 +394,7 @@
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">Ajuda / FAQ</a>
               <a href="Contato.php">Contato</a>
-              <a href="#">Customer service</a>
-              <a href="#">Fórum</a>
             </div>
           </div>
         </div>
@@ -463,16 +403,11 @@
       <div class="pricing-column col-sm">
         <div class="card">
           <div class="card-header infotitle ani">
-            <img src="../public/assets/images/eye3.svg" alt="Icon"> <h4>Ani<span>Flix</span></h4>
+            <img src="../public/assets/images/icons-logo.svg" alt="Icon"> <h4>Ani<span>Flix</span></h4>
           </div>
           <div class="card-body">
             <div class="infolist">
               <a href="#">Sobre</a>
-              <a href="#">Trabalhe Conosco</a>
-              <a href="#">Publicidade</a>
-              <a href="#">Política de direitos autorais</a>
-              <a href="#">Termos de serviço</a>
-              <a href="#">política de Privacidade</a>
             </div>
           </div>
         </div>
