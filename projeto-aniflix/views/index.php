@@ -21,6 +21,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   </head>
   <body>
 
@@ -77,19 +78,43 @@
           <p class="subtitle">Em qualquer lugar, em qualquer dispositivo, de todas as formas possíveis.</p>
         </div>
 
-        <form action="index.html" method="post">
-          <div class="row form-div">
+        <form id="registerForm">
+        <div class="row form-div">
             <div class="col-lg-8">
-              <input type="email" placeholder="Email" id="register-input"/>
+                <input type="email" placeholder="Email para receber novidades" id="register-input" name="email">
             </div>
 
             <div class="col-lg-4">
-              <button class="btn btn-lg" type="button" id="register-btn">
-                Sing Up
-              </button>
+                <button class="btn btn-lg" type="button" id="register-btn">
+                    Enviar
+                </button>
             </div>
-          </div>
-        </form>
+        </div>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            $("#register-btn").click(function () {
+                // Obtém os dados do formulário
+                var email = $("#register-input").val();
+
+                // Envia os dados para o servidor usando AJAX
+                $.ajax({
+                    type: "POST",
+                    url: "novidades.php", // Substitua pelo caminho real do seu script PHP
+                    data: { email: email },
+                    success: function (response) {
+                        // Exibe a resposta do servidor (pode ser uma mensagem de sucesso)
+                        alert(response);
+                    },
+                    error: function (error) {
+                        // Exibe uma mensagem de erro se a requisição falhar
+                        alert("Erro ao enviar o e-mail: " + error.responseText);
+                    }
+                });
+            });
+        });
+    </script>
       </div>
     </div>
   </div>
