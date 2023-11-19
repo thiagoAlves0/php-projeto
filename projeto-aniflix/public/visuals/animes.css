@@ -1,0 +1,105 @@
+/* CSS by:thiagoAlves0 */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #8d70db; /* Cor de fundo */
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 2rem; /*texto do cabeçalho */
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out; /* Adicionei a transição para a borda inferior */
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+}
+
+.header h2:hover {
+  color: #1f1f1f;
+  border-bottom-color: #1f1f1f;
+}
+
+.anime-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.anime-item {
+  background-color: #1f1f1f; /* Cor de fundo */
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 12px; /*o raio da borda */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*sombra */
+  transition: transform 0.3s ease-in-out;
+  flex: 0 0 calc(31.333% - 20px); /* largura do item */
+  max-width: calc(31.333% - 20px); /* largura do item */
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden; /* Adicionei para esconder overflow caso a descrição seja muito longa */
+}
+
+.anime-item:hover {
+  transform: scale(1.05); /* escala ao passar o mouse */
+}
+
+.anime-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.hover-color:hover {
+  color: #1f1f1f;
+}
+
+.anime-description {
+  font-size: 1rem;
+  color: #bbb; /* Cor da descrição */
+}
+
+.anime-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Aumentei o raio da borda */
+  cursor: pointer;
+  transition: filter 0.3s ease-in-out;
+}
+
+.anime-item:hover .anime-image {
+  filter: brightness(1.2); /* brilho ao passar o mouse */
+}
+
+/* Efeito de brilho ao passar o mouse */
+.shine {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px; /* Aumentar o raio da borda */
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.anime-item:hover .shine {
+  opacity: 1;
+}
