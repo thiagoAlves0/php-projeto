@@ -47,10 +47,7 @@
           </ul>
       <ul class="navbar-nav ml-auto">
         <li>
-      <a href="link-de-registro" class="btn btn-outline nav-button">Registro</a>
-    </li>
-    <li>
-     <a href="link-de-login" class="btn btn-outline nav-button">Login</a>
+      <a href="registro.php" class="btn btn-outline nav-button">Registro</a>
     </li>
          </ul>
           </ul>
@@ -276,12 +273,11 @@
           </div>
           <div class="d-flex justify-content-center">
             <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-              <span class="singup-text">Inscrição</span>
+            <a href="registro.php"> <span class="singup-text">Inscrição</span> </a> 
             </button>
           </div>
         </div>
       </div>
-
       <div class="pricing-column col-lg-4 col-md-6">
         <div class="card cardsub">
           <div class="card-header">
@@ -306,7 +302,7 @@
           </div>
           <div class="d-flex justify-content-center">
             <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-              <span class="singup-text">Inscrição</span>
+            <a href="registro.php"> <span class="singup-text">Inscrição</span> </a>
             </button>
           </div>
         </div>
@@ -336,7 +332,7 @@
           </div>
           <div class="d-flex justify-content-center">
             <button class="btn btn-lg btn-block btn-dark card-btn d-flex align-items-center justify-content-center" type="button">
-              <span class="singup-text">Inscrição</span>
+            <a href="registro.php"> <span class="singup-text">Inscrição</span> </a>
             </button>
           </div>
         </div>
