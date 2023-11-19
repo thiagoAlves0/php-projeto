@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,6 +10,7 @@
 
 </head>
 <body>
+
   <div class="container">
   <h2 class="hover-color">Catálogo de Animes</h2>
     <ul class="anime-list">
@@ -16,7 +18,7 @@
         <h3 class="anime-title">Kimi no Na wa</h3>
         <p class="anime-description">Mitsuha é uma estudante que vive em uma pequena cidade nas montanhas. Apesar de sua vida tranquila...</p>
         <!-- Link para o vídeo ao clicar na imagem -->
-        <a href="link_para_o_video_1" target="_blank">
+        <a href="anime_redirect.php?anime_id=1" target="_blank">
           <img src="../public/assets/img test/YN.jpg" alt="Anime 1" class="anime-image">
         </a>
       </li>

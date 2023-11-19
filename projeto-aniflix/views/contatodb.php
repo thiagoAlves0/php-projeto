@@ -30,6 +30,9 @@ if (isset($_POST['nome_usuario'], $_POST['email_usuario'], $_POST['texto_usuario
     if (mysqli_query($conexao, $sql)) {
         if (mysqli_affected_rows($conexao) > 0) {
             echo "Dados inseridos com sucesso!";
+            
+            // Redirecionar para a página de contato após 2 segundos
+            header("refresh:2;Contato.php");
         } else {
             echo "Erro: Nenhum dado inserido.";
         }

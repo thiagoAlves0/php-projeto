@@ -17,39 +17,39 @@
     <div class="login_body">
       <div class="login_box">
         <h2>Resgistra-se</h2>
-        <form>
-          <div class="input_box">
-            <input required type="nome" placeholder="Nome Completo" />
-          </div>
+        <form action="registrodb.php" method="post">
+        <div class="input_box">
+          <input required type="text" name="nome" placeholder="Nome Completo" />
+        </div>
 
-          <div class="input_box">
-            <div>
-              <label for="diaa"></label>
-              <input type="date" id="diaa" name="diaa" />
-            </div>
-          </div>
-
-          <div class="input_box">
-            <input required type="email" placeholder="Email" />
-          </div>
-
-          <div class="input_box">
-            <input required type="password" placeholder="Senha" />
-          </div>
-
-          <div class="input_box" style="display: inline-block">
-            <label for="planos" style="color: #8d70db">Escolha um plano:</label>
-            <select id="planos" name="planos">
-              <option value="Gratuito">Gratuito</option>
-              <option value="Plano Básico">Plano Básico</option>
-              <option value="Plano Premium">Plano Premium</option>
-            </select>
-          </div>
-
+        <div class="input_box">
           <div>
-            <button class="submit">Entrar</button>
+            <label for="diaa">Data de Nascimento:</label>
+            <input type="date" id="diaa" name="data_nascimento" />
           </div>
-        </form>
+        </div>
+
+        <div class="input_box">
+          <input required type="email" name="email" placeholder="Email" />
+        </div>
+
+        <div class="input_box">
+          <input required type="password" name="senha" placeholder="Senha" />
+        </div>
+
+        <div class="input_box" style="display: inline-block">
+          <label for="planos" style="color: #8d70db">Escolha um plano:</label>
+          <select id="planos" name="plano">
+            <option value="Gratuito">Gratuito</option>
+            <option value="Plano Básico">Plano Básico</option>
+            <option value="Plano Premium">Plano Premium</option>
+          </select>
+        </div>
+
+        <div>
+          <button type="submit" class="submit">Registrar</button>
+        </div>
+      </form>
       </div>
     </div>
   </body>
