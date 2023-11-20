@@ -17,7 +17,7 @@
     <div class="login_body">
       <div class="login_box">
         <h2>Login</h2>
-        <form action="registrodb.php" method="post">
+        <form action="logindb.php" method="post">
         
         <div class="input_box">
           <input required type="email" name="email" placeholder="Email" />
