@@ -39,7 +39,7 @@
         </a>
       </li>
       <li class="anime-item">
-        <h3 class="anime-title">Tokyo Ghoul </h3>
+        <h3 class="anime-title">Tokyo Ghoul</h3>
         <p class="anime-description">Em Tóquio, criaturas conhecidas como ghouls vivem entre os humanos e os devoram para sobreviver.</p>
         <!-- Link para o vídeo ao clicar na imagem -->
         <a href="link_para_o_video_4" target="_blank">

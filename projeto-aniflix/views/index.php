@@ -26,7 +26,7 @@
   <body>
 
   <!-- Navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
   <div class="container-fluid navtitle">
     <a class="navbar-brand mr-4" href="#">Ani<span>Flix</span></a> <!-- Adiciona margem à direita -->
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,19 +38,26 @@
           <ul class="navbar-nav mr-auto ml-custom">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle navlink" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Animes
+                Animes
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="animes.php">Todos os Animes</a>
               </div>
             </li>
           </ul>
-      <ul class="navbar-nav ml-auto">
-        <li>
-      <a href="registro.php" class="btn btn-outline nav-button">Registro</a>
-    </li>
-         </ul>
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <a href="registro.php" class="btn btn-outline nav-button">Registro</a>
+            </li>
+            <li class="nav-item">
+              <a href="login.php" class="btn btn-outline nav-button">Login</a>
+            </li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
         </div>
       </div>
     </div>
@@ -127,18 +134,17 @@
 
           <div class="row download-text">
             <div class="col-lg-6 col-md-6">
-              <button class="btn btn-lg download-btn" type="button" name="button">
-                <i class="fab fa-google-play download-icon"></i>DOWNLOAD</button>
+              <a href="https://play.google.com/store/apps?hl=pt_BR&gl=US" class="btn btn-lg download-btn" type="button" name="button">
+                <i class="fab fa-google-play download-icon"></i>DOWNLOAD</a>
             </div>
 
             <div class="col-lg-6 col-md-6">
-              <button class="btn btn-lg download-btn" type="button" name="button">
-                <i class="fab fa-apple download-icon"></i>DOWNLOAD</button>
+              <a href="https://www.apple.com/br/app-store/" class="btn btn-lg download-btn" type="button" name="button">
+                <i class="fab fa-apple download-icon"></i>DOWNLOAD</a>
             </div>
           </div>
         </div>
       </div>
-
       <div class="col-lg-6">
         <img class="smartphone-img" src="../public/assets/images/smartphone-image.png">
       </div>
@@ -373,16 +379,12 @@
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">Black Clover</a>
-              <a href="#">Bleach</a>
-              <a href="#">Boruto</a>
-              <a href="#">Dragon Ball Super</a>
+              <a href="#">Kimi no Na wa</a>
               <a href="#">Hunter x Hunter</a>
-              <a href="#">Naruto</a>
-              <a href="#">Naruto Shippuden</a>
+              <a href="#">Jujutsu Kaisen</a>
+              <a href="#">Tokyo Ghoul</a>
               <a href="#">One Piece</a>
-              <a href="#">Re:Zero</a>
-              <a href="#">The God of High School</a>
+              <a href="#">Shingeki no Kyojin</a>
             </div>
           </div>
         </div>

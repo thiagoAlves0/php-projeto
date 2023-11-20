@@ -140,14 +140,3 @@ body::before {
 .sign_up a:hover {
   text-decoration: underline;
 }
-
-#planos-container {
-  text-align: center;
-  margin-top: 20px;
-}
-
-#planos {
-  display: inline-block;
-  width: auto;
-  margin-right: 10px;
-}
