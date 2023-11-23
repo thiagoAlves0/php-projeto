@@ -26,7 +26,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Registro inserido com sucesso!";
 
     // Redirecionar para a página inicial após 2 segundos
-    header("refresh:2;index.php");
+    header("refresh:2;login.php");
 } else {
     echo "Erro: " . $sql . "<br>" . $conn->error;
 }

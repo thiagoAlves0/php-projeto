@@ -430,7 +430,7 @@
           </div>
           <div class="card-body">
             <div class="infolist">
-              <a href="#">Sobre</a>
+              <a href="sobre.php">Sobre</a>
             </div>
           </div>
         </div>
